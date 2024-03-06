@@ -5,7 +5,11 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    letter = input()
+    if letter == 'a' or letter == 'e' or letter =='i' or letter =='o' or letter == 'u':
+        print("O")
+    else:
+        print("X")
     return
 
 

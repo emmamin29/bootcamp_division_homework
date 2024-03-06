@@ -5,7 +5,19 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    num = int(input())
+    sum=0
+    fac = 1
+    #합 출력
+    for i in range(num+1):
+        sum += i
+    print(sum)
 
+    #팩토리얼
+    for i in range(num):
+        num2= i+1
+        fac *=num2  
+    print(fac)
     return
 
 

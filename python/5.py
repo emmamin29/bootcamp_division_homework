@@ -5,7 +5,16 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    age = int(input())
+    height = int(input())
+    if age >= 14:
+        print("X")
+        exit
+    elif height >=170:
+        print("X")
+        exit
+    else:
+        print("O")
     return
 
 

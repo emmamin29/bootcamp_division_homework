@@ -5,7 +5,20 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    year = input()
+    month = input()
+    year = int(year)
+    month = int(month)
 
+    if (((year%4==0)and (year%100!=0))or (year%400 ==0)) and month ==2:
+          print("29")
+    elif (month == 2):
+        print("28")
+    elif month ==4 or month==6 or month ==9 or month ==11:
+        print("30")
+    else:
+        print("31")
+    
     return
 
 
