@@ -12,6 +12,5 @@ def main():
         print("AM")
     return
 
-
 if __name__ == '__main__':
     main()

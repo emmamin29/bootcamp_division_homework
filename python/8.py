@@ -5,7 +5,8 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    num = int(input())
+    num = input()
+    num = int(num)
     sum=0
     fac = 1
     #합 출력
@@ -19,7 +20,6 @@ def main():
         fac *=num2  
     print(fac)
     return
-
 
 if __name__ == '__main__':
     main()
